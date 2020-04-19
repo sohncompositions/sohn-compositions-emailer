@@ -1,13 +1,12 @@
 {
   "name": "sohn-compositions-portfolio",
-  "version": "1.0.0",
-  "description": "Portfolio website for Joshua Sohn",
+  "version": "2.0.0",
+  "description": "Email server for Sohn Compositions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "start": "node .",
-    "heroku-postbuild": "cd ./client && npm install"
+    "start": "node ."
   },
   "author": "Ben Turner",
   "license": "ISC",

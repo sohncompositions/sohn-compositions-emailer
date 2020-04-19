@@ -1,7 +1,6 @@
 const express = require('express');
 const { emailerRoute } = require('./routes/emailer');
 const { handleError } = require('./middleware/error');
-const { validateApiKey } = require('./middleware/auth');
 const { sources } = require('./config');
 
 const app = express();
